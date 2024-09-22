@@ -4,7 +4,7 @@
         "email": "koenkanters94@gmail.com"
     },
     "bugs": {
-        "url": "https://github.com/koenkk/zigbee-herdsman/issues"
+        "url": "https://github.com/stream2me/zigbee-herdsman/issues"
     },
     "contributors": [
         {
@@ -63,7 +63,7 @@
         "typescript": "^5.6.2",
         "typescript-eslint": "^8.5.0"
     },
-    "homepage": "https://github.com/Koenkk/zigbee-herdsman",
+    "homepage": "https://github.com/stream2me/zigbee-herdsman",
     "keywords": [
         "zigbee",
         "zstack",
@@ -77,7 +77,7 @@
     "name": "zigbee-herdsman",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Koenkk/zigbee-herdsman.git"
+        "url": "git+https://github.com/stream2me/zigbee-herdsman.git"
     },
     "scripts": {
         "build": "tsc",
@@ -88,7 +88,7 @@
         "eslint": "eslint --max-warnings=0",
         "pretty:write": "prettier --write .",
         "pretty:check": "prettier --check .",
-        "typedoc": "typedoc --gitRevision $(git describe --tag --abbrev=0) --tsconfig tsconfig.json --excludePrivate --excludeProtected --excludeExternals --entryPointStrategy expand ./src --sourceLinkTemplate 'https://github.com/Koenkk/zigbee-herdsman/blob/{gitRevision}/{path}#L{line}' -out typedoc",
+        "typedoc": "typedoc --gitRevision $(git describe --tag --abbrev=0) --tsconfig tsconfig.json --excludePrivate --excludeProtected --excludeExternals --entryPointStrategy expand ./src --sourceLinkTemplate 'https://github.com/stream2me/zigbee-herdsman/blob/{gitRevision}/{path}#L{line}' -out typedoc",
         "clean": "rimraf temp coverage dist",
         "prepack": "npm run clean && npm run build"
     },
